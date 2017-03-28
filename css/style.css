@@ -3,9 +3,6 @@
 /* ================================
  * BASE
  * ================================ */
-html {
-    font-size: 62.5%;
-}
 body {
     background: linear-gradient(-135deg, #F8FFAE, #43C6AC);
     color: #fff;
@@ -16,22 +13,26 @@ a:link, a:visited, a:hover, a:active {
      color: #fff;
      text-decoration: none;
  }
+h1 {
+    font-size: 3.6rem;
+}
+
+/* ================================
+ * COMMON
+ * ================================ */
 .heading {
     text-align: center;
-    font-size: 3.0rem;
+    font-size: 2.4rem;
 }
 .section {
-    padding: 10px;
-}
-h1 {
-    font-size: 5.0rem;
+    padding: 64px;
 }
 
 /* ================================
  * HEADER
  * ================================ */
 .header {
-    padding: 10px;
+    padding: 0 64px;
 }
 .logo {
     width: 80px;
@@ -51,8 +52,8 @@ h1 {
     content: '';
     display: block;
     width: 0;
-    margin: 4px auto 0;
-    border-bottom: 1px solid #fff;
+    margin: 2px auto 0;
+    border-bottom: 1px solid #888;
     transition: width 0.3s ease-in-out;
 }
 .nav-item a:hover::after {
@@ -63,13 +64,20 @@ h1 {
  * HERO
  * ================================ */
 .hero {
-    height: 680px;
+    height: 720px;
 }
 .copy {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%); /* Safari用 */
     transform: translateY(-50%);
+}
+.sns-button {
+    margin-right: 12px;
+}
+.sns-img {
+    width: 50px;
+    height: 50px;
 }
 
 /* ================================
@@ -78,6 +86,14 @@ h1 {
 .portfolio {
     background: #ffffff;
     color: #000000;
+    text-align: center;
+}
+.port-item {
+    margin: 16px 0;
+}
+.icon-port {
+    width: 180px;
+    height: 180px;
 }
 
 /* ================================
@@ -102,3 +118,10 @@ h1 {
 /* ================================
  * FOOTER
  * ================================ */
+.footer {
+    height: 36px;
+    background: #535353;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+}
