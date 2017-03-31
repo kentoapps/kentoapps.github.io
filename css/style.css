@@ -106,7 +106,18 @@ h3 {
 /* ================================
  * EXPERIENCE
  * ================================ */
-
+.experience {
+    text-align: center; // TODO only for mobile
+}
+.exp-item {
+    margin-bottom: 32px;
+}
+.exp-item h3 {
+    margin-top: 0; // TODO only for pc
+}
+.exp-img {
+    width: 200px;
+}
 
 /* ================================
  * SKILL
