@@ -136,6 +136,25 @@ h3 {
 /* ================================
  * ABOUT ME
  * ================================ */
+.aboutme {
+    height: 720px;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact-btn {
+    margin-top: 32px;
+    display: inline-block;
+    padding: .5em 4em;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    transition: all .3s;
+}
+.contact-btn:hover {
+    box-shadow: 0 0 30px rgba(255,255,255,.6) inset;
+}
 
 
 /* ================================
